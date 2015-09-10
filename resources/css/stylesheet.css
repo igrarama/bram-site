@@ -10,6 +10,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: whitesmoke;
+	min-width: 600px;
 }
 
 /* -------------------------- */
@@ -82,6 +83,46 @@ header {
 	background: #FBC12E;
 }
 
+#about {
+	/*overflow: hidden;*/
+	min-width: 500px;
+	max-width: 780px;
+	margin: 0 auto;
+	text-align: center;
+}
+	
+	#about #skill-show {
+		overflow: hidden;
+		display: inline-block;
+		margin: 0 auto;			
+		line-height: 200px;
+		margin-bottom: 20px;
+	}
+
+		#about #skill-show .skill {
+			width: 100px; 
+			height: 100px;
+			background-color: rgb(251,193,46);
+			background-size: 70%;
+			border-radius: 50%;
+			background-repeat: no-repeat;
+			background-position: center;
+			float: left;
+		}
+
+		#about #skill-show .head-shot {
+			background: url(https://pixabay.com/static/uploads/photo/2013/07/13/10/44/man-157699_640.png) center no-repeat;
+			background-size: cover;
+			width: 200px; 
+			height: 200px;
+			border-radius: 50%;
+			float: left;
+			margin: 0 30px;
+		}
+
+	#about .about-me {
+	}
+
 #showcase {
 	width: 90%;
 	margin: 0 auto;
@@ -111,9 +152,9 @@ header {
     opacity: 0.7;
 }
 
-.single-piece:hover {
-	opacity: 1.0;
-}
+	.single-piece:hover {
+		opacity: 1.0;
+	}
 
 #contact {
 	text-align: center;
